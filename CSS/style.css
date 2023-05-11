@@ -52,6 +52,12 @@ header
   opacity: 0.8;
 }
 
+.button:hover 
+{
+  background-colour: #020204;
+  widht: 50px;
+}
+
 .video-container
 {
   position: absolute;
