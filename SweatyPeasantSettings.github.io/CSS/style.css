@@ -1,0 +1,123 @@
+body {
+	background-image: url(https://webdesignthemes.files.wordpress.com/2014/11/web-design-mrnokhei-albums-243418.jpg)
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+p.normal {
+    font-weight: normal;
+	padding: 4px;
+}
+
+p.thick {
+    font-weight: bold;
+	padding: 4px;
+}
+
+nav {
+    font-family: ariel, helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+	background-color: #4d474a;
+    width: 140px;
+    color: white;
+	padding: 7px;
+    text-decoration: underline;
+    transition: .5s;
+}
+
+nav li a {
+    color: white;
+}
+
+nav li:hover {
+	background-color: #0190E5;
+	width: 155px;
+}
+
+#Content {
+    width: 962px;
+	min-height: 400px;
+	max-height: 1080;
+    background-color: #dcdcdc;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+h1 {
+	font-family: Comic Sans MS, cursive, sans-serif;
+	text-align: center;
+}
+
+#Logo {
+	height: 100px;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#CL li {
+	display: inline-block;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+#SportList {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: ariel, helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+#SportList li {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+    display: block;
+	background-color: #4d474a;
+    width: 140px;
+    color: white;
+	padding: 15px;
+    text-decoration: underline;
+    transition: .5s;
+}
+
+#SportList Li a {
+	Color: white;
+}
+
+#SportList Li:hover {
+	background-color: #0190E5;
+	width: 170px;
+}
+
+#Youtube {
+	width: 854px;
+	height: 480px;
+	margin-left: auto;
+	margin-right: auto;
+}
