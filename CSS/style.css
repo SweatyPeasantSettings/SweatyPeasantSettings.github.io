@@ -31,11 +31,13 @@
 p.normal {
     font-weight: normal;
 	padding: 4px;
+	z-index: +1;
 }
 
 p.thick {
     font-weight: bold;
 	padding: 4px;
+	z-index: +1;
 }
 
 nav {
@@ -45,12 +47,14 @@ nav {
     display: block;
     padding-bottom: 20px;
 	padding-top: 10px;
+	z-index: +1;
 }
 
 ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+	z-index: +1;
 }
 
 nav li {
@@ -61,15 +65,18 @@ nav li {
 	padding: 7px;
     text-decoration: underline;
     transition: .5s;
+	z-index: +1;
 }
 
 nav li a {
     color: white;
+	z-index: +1;
 }
 
 nav li:hover {
 	background-color: #0190E5;
 	width: 155px;
+	z-index: +1;
 }
 
 #Content {
@@ -86,6 +93,7 @@ nav li:hover {
 h1 {
 	font-family: Comic Sans MS, cursive, sans-serif;
 	text-align: center;
+	z-index: +1;
 }
 
 #Logo {
@@ -93,6 +101,7 @@ h1 {
 	width: 350px;
 	margin-left: auto;
 	margin-right: auto;
+	z-index: +1;
 }
 
 #CL li {
@@ -101,6 +110,7 @@ h1 {
 	padding-right: 7px;
 	padding-top: 15px;
 	padding-bottom: 20px;
+	z-index: +1;
 }
 
 #SportList {
@@ -113,6 +123,7 @@ h1 {
     display: block;
 	padding-bottom: 20px;
 	padding-top: 20px;
+	z-index: +1;
 }
 
 #SportList li {
@@ -142,4 +153,5 @@ h1 {
 	height: 480px;
 	margin-left: auto;
 	margin-right: auto;
+	z-index: +1;
 }
