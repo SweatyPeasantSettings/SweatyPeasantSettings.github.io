@@ -42,10 +42,14 @@ header
   border-radius: 40px;
   color: #18266c;
   font-size: 1.5em;
+  font-weight: bold;
   padding: .7em 1.2em;
   text-decoration: none;
   box-sizing: border-box;
   cursor: pointer;
+  display: block;
+  margin-block: 20px;
+  border: 3px solid black;
 }
 
 .video-container
