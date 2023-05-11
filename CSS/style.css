@@ -22,18 +22,9 @@
 {
 	.video-background
 	{
-		width: 100%;
+		width: auto;
 		height: auto;
 	}
-	
-@media (min-aspect-ratio:16/9)
-{
-	.video-background
-	{
-		width: auto;
-		height: 100%;
-	}
-}
 	
 p.normal {
     font-weight: normal;
