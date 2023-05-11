@@ -5,7 +5,10 @@
   padding: 0;
 }
 
-body{font-family: arial, helvetica, sans-serif;}
+body
+{
+  font-family: arial, helvetica, sans-serif;
+}
 
 header
 {
@@ -54,5 +57,4 @@ p
 {
   font-size: 1.5em;
   margin-bottom: 1em;
-}
 }
