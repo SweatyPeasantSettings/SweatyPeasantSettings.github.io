@@ -4,7 +4,9 @@
 	padding: 0;
 }
 
-
+.header
+{
+	height: 100vh;
 
 .video-background
 {
@@ -76,6 +78,7 @@ nav li:hover {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+	z-index: +1;
 }
 
 h1 {
