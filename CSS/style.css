@@ -3,7 +3,8 @@ body
   font-family: arial, helvetica, sans-serif;
 }
 
-.navigation{
+.navigation
+{
   padding-top:10px;
   padding-bottom:10px;
   position:absolute;
@@ -16,11 +17,13 @@ body
   text-align: center;
 }
 
-.navbar-right{
+.navbar-right
+{
   padding-top:20px;
 }
 
-.navbar-right a{
+.navbar-right a
+{
   text-decoration:none;
   padding:10px;
   color: #fff;
@@ -28,10 +31,13 @@ body
   font-weight:900;
 }
 
-.navbar-right a:hover{
+.navbar-right a:hover
+{
   text-decoration:underline;
 }
-.navbar-logo{
+
+.navbar-logo
+{
   padding-left:auto;
   padding-right:auto;
   font-family:Arial;
@@ -39,23 +45,6 @@ body
   font-weight:bold;
   text-decoration:none;
   color:#fff; 
-}
-
-header
-{
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  text-align: center;
-}
-
-img 
-{
-  max-width:100%;
-  max-height: 100%;
-  display: block;
 }
   
 .text
@@ -100,23 +89,6 @@ img
 }
 
 #video-bg
-{
-  /* Make video to at least 100% wide and tall */
-  min-width: 100%; 
-  min-height: 100%; 
-
-  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
-  width: auto;
-  height: auto;
-
-  /* Center the video */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-
-.video-container video 
 {
   /* Make video to at least 100% wide and tall */
   min-width: 100%; 
