@@ -1,13 +1,44 @@
-*
-{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body
 {
   font-family: arial, helvetica, sans-serif;
+}
+
+.navigation{
+  padding-top:10px;
+  padding-bottom:10px;
+  position:absolute;
+  top:0;
+  width:100%;
+  z-index:1;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+.navbar-right{
+  padding-top:20px;
+}
+
+.navbar-right a{
+  text-decoration:none;
+  padding:10px;
+  color: #fff;
+  font-family:Arial;
+  font-weight:900;
+}
+
+.navbar-right a:hover{
+  text-decoration:underline;
+}
+.navbar-logo{
+  padding-left:auto;
+  padding-right:auto;
+  font-family:Arial;
+  font-size:30px;
+  font-weight:bold;
+  text-decoration:none;
+  color:#fff; 
 }
 
 header
@@ -26,28 +57,12 @@ img
   max-height: 100%;
   display: block;
 }
-
-.Logo 
-{
-  margin-left: auto;
-  margin-right: auto;
-  z-index: +1;
-  opacity: 0.8;
-}
   
 .text
 {
   position: absolute;
   color: #000000;
   line-height: 1.5;
-}
-
-.overlay 
-{
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-  opacity: 0.7;
 }
 
 .button
@@ -84,6 +99,23 @@ img
   z-index: -1;
 }
 
+#video-bg
+{
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%; 
+  min-height: 100%; 
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
 .video-container video 
 {
   /* Make video to at least 100% wide and tall */
@@ -99,7 +131,6 @@ img
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  z-index: -1;
 }
 
 h1
