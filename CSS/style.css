@@ -6,7 +6,8 @@ body
 
 .logo
 {
-  padding: 50px;
+  margin-top: 200px;
+  margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
   width: 250px;
@@ -24,21 +25,14 @@ img#face-logo
 {
   padding-top:10px;
   padding-bottom:10px;
-  top:0;
   width:100%;
-  z-index:1;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   text-align: center;
 }
 
-.navbar-right
-{
-  padding-top:20px;
-}
-
-.navbar-right a
+.navigation a
 {
   padding:10px;
   text-decoration:none;
@@ -47,7 +41,7 @@ img#face-logo
   font-weight:900;
 }
 
-.navbar-right a:hover
+.navigation a:hover
 {
   text-decoration:underline;
 }
